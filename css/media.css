@@ -1,0 +1,162 @@
+@media (max-height: 1079px) {
+
+  .hero__left {
+    width: 49.5%;
+  }
+
+  .hero__text {
+    width: 75%;
+  }
+
+  .hero__right {
+    width: 40.5%;
+  }
+
+  .photos__frame {
+    width: 700px;
+    height: 450px;
+    padding: 30px;
+    padding-top: 0;
+  }
+
+  .photos__wrapper{
+    grid-template-rows: repeat(2, 170px);
+  }
+}
+
+@media (max-height: 800px) {
+
+  .container {
+    padding: 0 55px;
+  }
+
+  .hero {
+    padding-top: 125px;
+    min-height: 640px;
+  }
+
+  .menu {
+    min-height: 640px;
+  }
+
+  .photos__frame {
+    width: 600px;
+    height: 300px;
+    padding: 30px;
+    padding-top: 0;
+  }
+
+  .photos__wrapper {
+    grid-template-rows: repeat(2, 100px);
+  }
+
+  .hero__left {
+    max-width: 44%;
+  }
+
+  .hero__right {
+    max-width: 50%;
+  }
+
+  .hero__title {
+    font-size: 55px;
+    line-height: 70px;
+  }
+
+  .hero__text{
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .hero__button {
+    font-size: 16px;
+    padding: 20px 25px;
+  }
+
+  .header {
+    padding: 20px;
+  }
+
+  .header::after {
+    width: 16.3%;
+  }
+
+  .header__logo {
+    width: 125px;
+  }
+
+  .burger {
+    width: 39px;
+    height: 26px;
+  }
+
+  .nav__link {
+    font-size: 16px;
+  }
+
+  .photos__author {
+    font-size: 16px;
+  }
+
+  .photos__frame:nth-last-child(1) {
+    top: 200px;
+    left: 80px;
+    z-index: 2;
+  }
+
+  .photos__frame:nth-last-child(2) {
+    top: 160px;
+    left: 60px;
+    z-index: 3;
+  }
+  .photos__frame:nth-last-child(3) {
+    top: 120px;
+    left: 40px;
+    z-index: 4;
+  }
+
+  .photos__frame:nth-last-child(4) {
+    top: 80px;
+    left: 20px;
+    z-index: 5;
+  }
+
+  .menu__top {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  .menu__main {
+    padding-top: 60px;
+    padding-bottom: 89px;
+  }
+
+  .top__button {
+    width: 33px;
+    height: 33px;
+  }
+
+  .navigation__link {
+    font-size: 28px;
+    line-height: 180%;
+  }
+
+  .main__navigation {
+    margin-bottom: 75px;
+  }
+
+  .socials__icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .sub-menu__title {
+    margin-bottom: 16px;
+    font-size: 36px;
+  }
+
+  .sub-menu__link {
+    line-height: 180%;
+  }
+
+}

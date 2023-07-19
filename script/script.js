@@ -7,8 +7,8 @@ let tl = gsap.timeline();
   tl.from('.hero__button', {duration: 0.5, y: 100, opacity: 0}, '-=0.9');
   tl.from('.hero__text', {duration: 0.4, opacity: 0});
   tl.from('.photo-one', {duration: 0.4, scale: 0, opacity: 0}, '-=0.1');
-  tl.from('.photo-two', {duration: 0.375, scale: 0, opacity: 0});
-  tl.from('.photo-three', { duration: 0.375, scale: 0, opacity: 0});
+  tl.from('.photo-two', {duration: 0.4, scale: 0, opacity: 0});
+  tl.from('.photo-three', { duration: 0.4, scale: 0, opacity: 0});
   tl.from('.photos__author', {duration: 0.75, opacity: 0});
 
 // burger
@@ -26,7 +26,7 @@ let time = new gsap.timeline({paused: true});
   time.from('.socials', {duration: 0.5, y: 50, opacity: 0}, '-=0.5');
 
   burger.addEventListener('click', function() {
-   time.play()
+    time.play()
   });
 
   close.addEventListener('click', function() {

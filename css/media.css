@@ -74,7 +74,7 @@
   }
 
   .header {
-    padding: 20px;
+    padding: 20px 0;
   }
 
   .header::after {

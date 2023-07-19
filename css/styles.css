@@ -143,8 +143,8 @@ img {
 
 .burger__line {
   position: absolute;
-  left: 0;
   top: 0;
+  left: 0;
   display: inline-block;
   height: 4px;
   background-color: currentColor;

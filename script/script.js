@@ -15,6 +15,9 @@ let tl = gsap.timeline();
 
 let burger = document.querySelector('.burger');
 let close = document.querySelector('.close');
+let menuLinks = document.querySelectorAll('.navigation__link');
+let subLinks = document.querySelectorAll('.sub-menu__link');
+let socialLinks = document.querySelectorAll('.socials__link');
 
 let time = new gsap.timeline({paused: true});
 
@@ -31,5 +34,23 @@ let time = new gsap.timeline({paused: true});
 
   close.addEventListener('click', function() {
     time.reverse()
-  })
+  });
+
+  menuLinks.forEach(function(menuLink) {
+    menuLink.addEventListener('click', function() {
+      time.reverse()
+    })
+  });
+
+  subLinks.forEach(function(subLink) {
+    subLink.addEventListener('click', function() {
+      time.reverse()
+    })
+  });
+
+  socialLinks.forEach(function(socials) {
+    socials.addEventListener('click', function() {
+      time.reverse()
+    })
+  });
 
